@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **amount** | **int** | The scheduled transaction amount in milliunits format | 
 **account_id** | **str** |  | 
 **deleted** | **bool** | Whether or not the scheduled transaction has been deleted.  Deleted scheduled transactions will only be included in delta requests. | 
-**memo** | **str** |  | [optional] 
+**memo** | **str, none_type** |  | [optional] 
 **flag_color** | **str** | The scheduled transaction flag | [optional] 
 **payee_id** | **str** |  | [optional] 
 **category_id** | **str** |  | [optional] 

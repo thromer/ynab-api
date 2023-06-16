@@ -10,9 +10,9 @@ wget https://api.youneedabudget.com/papi/spec-v1-swagger.json
 java -jar ./swagger-codegen-cli-3.0.29.jar generate -l openapi -i spec-v1-swagger.json -o .
 ```
 
-3. Manually make "note" field nullable in all three locations.
+3. Manually make "note" and "memo" fields nullable in all locations.
 
-That is, change:
+For example, change:
 
 ```
 "note" : {
