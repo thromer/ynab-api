@@ -32,7 +32,8 @@ to:
 4. Generate api:
 
 ```
-java -jar openapi-generator-cli.jar generate -i openapi.json -g python --enable-post-process-file --package-name ynab_api
+java -jar openapi-generator-cli.jar generate -i openapi.json -g python --enable-post-process-file \
+  --package-name ynab_api -p 'infoName=David Lerner,gitUserId=dmlerner,gitRepoId=ynab-api'
 ```
 
 5. Optionally, format:

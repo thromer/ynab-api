@@ -2282,12 +2282,14 @@
           "last_reconciled_at" : {
             "type" : "string",
             "description" : "A date/time specifying when the account was last reconciled.",
-            "format" : "date-time"
+            "format" : "date-time",
+            "nullable": true
           },
           "debt_original_balance" : {
             "type" : "integer",
             "description" : "The original debt/loan account balance, specified in milliunits format.",
-            "format" : "int64"
+            "format" : "int64",
+            "nullable": true
           },
           "debt_interest_rates" : {
             "$ref" : "#/components/schemas/LoanAccountPeriodicValue"
