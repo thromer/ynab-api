@@ -29,7 +29,7 @@ setup(
     version=VERSION,
     description="YNAB API Endpoints",
     author="David Lerner",
-    author_email="team@openapitools.org",
+    author_email="dmlerner@gmail.com",
     url="",
     keywords=["OpenAPI", "OpenAPI-Generator", "YNAB API Endpoints"],
     python_requires=">=3.6",

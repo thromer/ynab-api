@@ -2248,8 +2248,7 @@
             "description" : "Whether this account is closed or not"
           },
           "note" : {
-            "type" : "string",
-	    "nullable" : true
+            "type" : "string"
           },
           "balance" : {
             "type" : "integer",
@@ -2427,8 +2426,7 @@
             "format" : "uuid"
           },
           "note" : {
-            "type" : "string",
-	    "nullable" : true
+            "type" : "string"
           },
           "budgeted" : {
             "type" : "integer",
@@ -3189,8 +3187,7 @@
             "format" : "date"
           },
           "note" : {
-            "type" : "string",
-	    "nullable" : true
+            "type" : "string"
           },
           "income" : {
             "type" : "integer",
